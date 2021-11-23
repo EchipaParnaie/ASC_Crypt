@@ -1,4 +1,4 @@
-from itertools import cycle
+from itertools import cycle # Test
 
 keyFile = inputFile = outputFile = ''
 try:
