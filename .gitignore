@@ -1,5 +1,7 @@
 parola
 .idea/
+input_copy.txt
+output_copy.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
