@@ -13,13 +13,13 @@ keyFile = inputFile = outputFile = ''
 try:
     keyFile = open(args.keyPath, "r")
 except FileNotFoundError:
-    print("Nu exista fisierul parola!")
+    print(f"Nu exista fisierul {args.keyPath}!")
     exit(1)
 
 try:
     inputFile = open(args.inputPath, "r")
 except FileNotFoundError:
-    print("Nu exista fisierul input.txt!")
+    print(f"Nu exista fisierul {args.inputPath}!")
     exit(1)
 
 outputFile = open(args.outputPath, "w")
