@@ -1,8 +1,8 @@
 # ASC_Crypt
 
-Proiect 1 - Arhitectura sistemelor de calcul
+Proiect 1 - Arhitectura Sistemelor de Calcul
 
-Autori: Razvan-Cristian Dumitriu si Andrei-Cristian Murica
+Autori: Razvan-Cristian Dumitriu si Andrei-Cristian Murica, grupa 152
 
 ## Cum se foloseste?
 
