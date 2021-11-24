@@ -22,4 +22,4 @@ Cu ajutorul `argparse` primim si tratam argumentele. Functia `zip` ne ajuta sa c
 
 ## Cum functioneaza decriptarea?
 
-Tot cu ajutorul `argparse` primim si tratam argumentele. Fisierul de intrare de data aceasta va fi un sir binar, nu un text, ca la criptare, asa ca impartim sirul binar din fisierul de intrare in grupe de 8 biti. Cu ajutorul functiei `int` transformam fiecare grupa de 8 biti intr-un numar zecimal, apoi aplicam XOR cu `ord(b)`, `b` fiind litera corespunzatoare grupei din parola. Rezultatul va fi un numar zecimal, pe care il transformam in litera cu ajutorul functiei `chr`, apoi il afisam in fisierul de iesire.
+Tot cu ajutorul `argparse` primim si tratam argumentele. Fisierul de intrare de data aceasta va fi un sir binar, nu un text, ca la criptare, asa ca impartim sirul binar in grupe de 8 biti. Cu ajutorul functiei `int` transformam fiecare grupa de 8 biti intr-un numar zecimal, apoi aplicam XOR cu `ord(b)`, `b` fiind litera corespunzatoare grupei din parola. Rezultatul va fi un numar zecimal, pe care il transformam in litera cu ajutorul functiei `chr`, apoi il afisam in fisierul de iesire.
