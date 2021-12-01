@@ -7,20 +7,20 @@ Autori: Razvan-Cristian Dumitriu si Andrei-Cristian Murica, grupa 152
 ## Cum se foloseste?
 
 
-Pentru criptare:
+### Pentru criptare:
 
 `python crypt.py parola fisier_intrare fisier_iesire`
 
 Fisierul de intrare va fi in format `.txt`, fisierul de iesire va fi unul binar, fara extensie.
 
 
-Pentru decriptare:
+### Pentru decriptare:
 
 `python decrypt.py parola fisier_intrare fisier_iesire`
 
 Fisierul de intrare va fi un fisier binar, fara extensie, fisierul de iesire va fi in format `.txt`.
 
-### Exemplu
+#### Exemplu
 
 `python crypt.py ParolaMea123 input.txt output`
 
