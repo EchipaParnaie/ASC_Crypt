@@ -32,4 +32,4 @@ Cu ajutorul `argparse` primim si tratam argumentele. Functia `zip` ne ajuta sa c
 
 ## Cum functioneaza decriptarea?
 
-Decriptarea functioneaza exact la fel ca si criptarea, singura diferenta fiind intre fisierele de intrare si iesire (intrarea este un fisier binar, outputul este text. Trebuie facuta diferenta intre aceste doua tipuri diferite de fisiere in momentul in care le deschidem - `"w"` pentru text, `"wb"` pentru binar).
+Decriptarea functioneaza exact la fel ca si criptarea, singura diferenta fiind intre fisierele de intrare si iesire (intrarea este un fisier binar, outputul este text. Trebuie facuta diferenta intre aceste doua tipuri diferite de fisiere in momentul in care le deschidem - `"w"`, respectiv `"r"` pentru text, `"wb"`, respectiv `"rb"` pentru binar).
