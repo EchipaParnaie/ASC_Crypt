@@ -18,8 +18,8 @@ Autori: Razvan-Cristian Dumitriu si Andrei-Cristian Murica, grupa 152
 
 ## Cum functioneaza criptarea?
 
-Cu ajutorul `argparse` primim si tratam argumentele. Functia `zip` ne ajuta sa cream o pereche `(a,b)`, cu `a` o litera din fisierul de intrare si `b` litera corespunzatoare din parola de criptare. Apoi, aplicam XOR intre `ord(a)` si `ord(b)`. Rezultatul va fi un numar in baza 10, pe care il transformam in baza 2 pe 8 biti, cu ajutorul functiei `format`, apoi afisam in fisierul iesire.
+Cu ajutorul `argparse` primim si tratam argumentele. Functia `zip` ne ajuta sa cream o pereche `(a,b)`, cu `a` o litera din fisierul de intrare si `b` litera corespunzatoare din parola de criptare. Cu functia `cycle` parcurgem atribuim fiecarei litera din input litera corespunzatoare din parola. Apoi, aplicam XOR intre `ord(a)` si `ord(b)`. 
 
 ## Cum functioneaza decriptarea?
 
-Tot cu ajutorul `argparse` primim si tratam argumentele. Fisierul de intrare de data aceasta va fi un sir binar, nu un text, ca la criptare, asa ca impartim sirul binar in grupe de 8 biti. Cu ajutorul functiei `int` transformam fiecare grupa de 8 biti intr-un numar zecimal, apoi aplicam XOR cu `ord(b)`, `b` fiind litera corespunzatoare grupei din parola. Rezultatul va fi un numar zecimal, pe care il transformam in litera cu ajutorul functiei `chr`, apoi il afisam in fisierul de iesire.
+Decriptarea functioneaza exact la fel ca si criptarea, singura diferenta fiind intre fisierele de intrare si iesire (intrarea este un fisier binar, outputul este text. Trebuie facuta diferenta intre aceste doua tipuri diferite de fisiere in momentul in care le deschidem - `"w"` pentru text, `"wb"` pentru binar).
