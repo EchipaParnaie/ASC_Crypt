@@ -6,9 +6,15 @@ Autori: Razvan-Cristian Dumitriu si Andrei-Cristian Murica, grupa 152
 
 ## Cum se foloseste?
 
+
+Pentru criptare:
+
 `python crypt.py parola fisier_intrare fisier_iesire`
 
 Fisierul de intrare va fi in format `.txt`, fisierul de iesire va fi unul binar, fara extensie.
+
+
+Pentru decriptare:
 
 `python decrypt.py parola fisier_intrare fisier_iesire`
 
