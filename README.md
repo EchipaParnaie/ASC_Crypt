@@ -20,7 +20,7 @@ Fisierul de intrare va fi in format `.txt`, fisierul de iesire va fi unul binar,
 
 Fisierul de intrare va fi un fisier binar, fara extensie, fisierul de iesire va fi in format `.txt`.
 
-#### Exemplu
+### Exemplu:
 
 `python crypt.py ParolaMea123 input.txt output`
 
