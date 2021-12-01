@@ -8,7 +8,11 @@ Autori: Razvan-Cristian Dumitriu si Andrei-Cristian Murica, grupa 152
 
 `python crypt.py parola fisier_intrare fisier_iesire`
 
+Fisierul de intrare va fi in format `.txt`, fisierul de iesire va fi unul binar, fara extensie.
+
 `python decrypt.py parola fisier_intrare fisier_iesire`
+
+Fisierul de intrare va fi un fisier binar, fara extensie, fisierul de iesire va fi in format `.txt`.
 
 ### Exemplu
 
