@@ -38,6 +38,10 @@ Decriptarea functioneaza exact la fel ca si criptarea, singura diferenta fiind i
 
 Pentru continuarea proiectului, Echipa Parnaie (formata din Razvan-Cristian Dumitriu si Andrei-Cristian Murica de la grupa 152) versus echipa [Edge](https://github.com/Edge0410/Proiect-ASC-0x00). Cheia echipei Edge este `ParolaASC1`.
 
+# Probleme intalnite:
+
+Din motive pe care nu le-am putut intelege, programele ruleaza gresit in momentul in care copiem si lipim textul output al echipei adverse. In schimb, daca rulam direct codul echipei adverse pe fisierele input/output, programele functioneaza as-expected. Presupunem ca, din cauza formatului neconventional in care este furnizat outputul se pierd anumite caractere la copy-paste.
+
 # Explicarea rezolvarii:
 
 Am conceput doua programe Python: `findpass.py` si `findpass_brute.py`. Vom explica mai jos cum functioneaza fiecare dintre ele.
