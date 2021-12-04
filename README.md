@@ -4,6 +4,8 @@ Proiect 0x00 - Arhitectura Sistemelor de Calcul
 
 Autori: Razvan-Cristian Dumitriu si Andrei-Cristian Murica, grupa 152
 
+# Partea 1:
+
 ## Cum se foloseste?
 
 
