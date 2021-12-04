@@ -36,7 +36,7 @@ Decriptarea functioneaza exact la fel ca si criptarea, singura diferenta fiind i
 
 # Partea a 2-a:
 
-Pentru continuarea proiectului, Echipa Parnaie (formata din Razvan-Cristian Dumitriu si Andrei-Cristian Murica de la grupa 152) versus echipa [Edge](https://github.com/Edge0410/Proiect-ASC-0x00)
+Pentru continuarea proiectului, Echipa Parnaie (formata din Razvan-Cristian Dumitriu si Andrei-Cristian Murica de la grupa 152) versus echipa [Edge](https://github.com/Edge0410/Proiect-ASC-0x00). Cheia echipei edge este `ParolaASC1`.
 
 # Explicarea rezolvarii:
 
