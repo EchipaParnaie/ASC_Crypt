@@ -40,7 +40,7 @@ Pentru continuarea proiectului, Echipa Parnaie (formata din Razvan-Cristian Dumi
 
 # Probleme intalnite:
 
-Din motive pe care nu le-am putut intelege, programele ruleaza gresit in momentul in care copiem si lipim textul output al echipei adverse. In schimb, daca rulam direct codul echipei adverse pe fisierele input/output, programele functioneaza as-expected. Presupunem ca, din cauza formatului neconventional in care este furnizat outputul se pierd anumite caractere la copy-paste.
+Din motive pe care nu le-am putut intelege, programele ruleaza gresit in momentul in care copiem si lipim textul output al echipei adverse. In schimb, daca rulam direct codul echipei adverse pe fisierele input/output, programele functioneaza as-expected. Presupunem ca, din cauza formatului neconventional in care este furnizat outputul se pierd anumite caractere la copy-paste, sau mai exista varianta in care echipa adversa nu a furnizat cum trebuie fisierul output.
 
 # Explicarea rezolvarii:
 
