@@ -44,12 +44,16 @@ Am conceput doua programe Python: `findpass.py` si `findpass_brute.py`. Vom expl
 
 ## `findpass.py`:
 
-Acest program foloseste fisierele `input.txt` si `output` ale echipei adverse si aplica operatia XOR intre caracterele din ele, grupandu-le cu ajutorul functiei `zip`. Astfel, in lista `result` vom obtine cheia initiala de decriptare, ce se va repeta pentru fiecare caracter din fisierul de intrare/iesire. Apoi, stiind ca cheia de decriptare va avea intre 10 si 15 caractere, programul va scoate din `result` cheia de decriptare si o va afisa la tastatura.
+Acest program foloseste fisierele `input.txt` si `output` ale echipei adverse si aplica operatia XOR intre caracterele din ele, grupandu-le cu ajutorul functiei `zip`. Astfel, in lista `result` vom obtine cheia initiala de decriptare, ce se va repeta pentru fiecare caracter din fisierul de intrare/iesire. Apoi, stiind ca cheia de decriptare va avea intre 10 si 15 caractere, programul va scoate din `result` cheia de decriptare si o va afisa pe ecran.
 
 ### Cum se foloseste?
 
-Programul functioneaza intr-un singur mod, fara a lua argumente la apel. Astfel, utilizand comanda `python findpass.py`, programul va lua fisierele `input.txt` si `output`, pe care le considera deja existente si va afisa parola de decriptare.
+Programul functioneaza intr-un singur mod, fara a lua argumente la apel. Astfel, utilizand comanda `python findpass.py`, programul va lua fisierele `input.txt` si `output`, pe care le considera deja existente si va afisa parola de decriptare in consola.
 
 ## `findpass_brute.py`:
 
-Acest program se foloseste strict de fisierul binar `output` al echipei adverse si gaseste cheia initiala de criptare, dupa urmatorul principiu: stim ca fisierul initial este un fisier text, continand litere mari, litere mici, cifre, semne de punctuatie si caractere albe (spatii, `\n`-uri). Stocam aceste caractere in lista `alphabet`. Astfel, programul cauta cheia de lungime 10-15 caractere alfanumerice astfel incat aplicand XOR fisierului `output` cu aceasta cheie sa obtinem un text lizibil, care contine doar caractere aflate in `alphabet`.
+Acest program se foloseste strict de fisierul binar `output` al echipei adverse si gaseste cheia initiala de criptare, dupa urmatorul principiu: stim ca fisierul initial este un fisier text, continand litere mari, litere mici, cifre, semne de punctuatie si caractere albe (spatii, `\n`-uri). Stocam aceste caractere in lista `alphabet`. Astfel, programul cauta cheia de lungime 10-15 caractere alfanumerice astfel incat aplicand XOR fisierului `output` cu aceasta cheie sa obtinem un text lizibil, care contine doar caractere aflate in `alphabet`. Odata gasita, cheia initiala va fi afisata pe ecran.
+
+### Cum se foloseste?
+
+Acest program functioneaza tot intr-un singur mod, fara a primi argumente la apel. Utilizand comanda `python findpass_brute.py`, programul va lua fisierul binar `output` pe care il considera deja existent si va afisa parola initiala de criptare in consola.
